@@ -1,0 +1,120 @@
+/* Hero and carousel section */
+
+.col-logo {
+  background-color: #181818;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  height: fit-content;
+}
+
+.logo-telefake {
+  color: #bd2131;
+  font-family: "Timmana", sans-serif;
+  font-weight: bold;
+  font-size: 7rem;
+  margin: 0;
+  transition: 400ms;
+}
+
+.fale-mais {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  width: 75%;
+  margin: auto;
+}
+
+div.fale-mais span {
+  color: #181818;
+  font-weight: 600;
+}
+
+div.fale-mais p.title {
+  font-weight: 300;
+  font-size: 4rem;
+}
+
+a.simular {
+  font-size: 2rem;
+  border-width: medium;
+}
+
+@media only screen and (max-width: 1188px) {
+  .logo-telefake {
+    font-size: 6rem;
+  }
+}
+
+/* Simulador section */
+
+.section-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.bg-black {
+  background-color: #181818;
+}
+
+.bg-red {
+  background-color: #bd2131;
+}
+
+.simulador-title {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 3rem;
+}
+
+input,
+select {
+  min-width: 188px;
+  max-width: 188px;
+}
+
+/* Histórico section */
+
+table {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+/* Footer */
+
+ul.social-network {
+  list-style: none;
+  padding: 0;
+}
+ul.social-network li {
+  display: inline;
+  margin: 0;
+  padding: 5px;
+}
+
+.fa {
+  font-size: 35pt;
+  color: #ffffff;
+  padding: 10px;
+  transition: 400ms;
+}
+
+.fa:hover {
+  transform: scale(1.2);
+}
+
+.fa-codepen:hover {
+  color: #47cf73;
+}
+.fa-linkedin-square:hover {
+  color: #0072b1;
+}
+.fa-github-square:hover {
+  color: #000000;
+}
