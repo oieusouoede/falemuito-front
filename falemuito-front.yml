@@ -1,14 +1,14 @@
 version: "3.4"
 services:
   falemuito-front:
-    image: falemuito-front
+    image: edemarinho/falemuito-front
     container_name: falemuito-front
     ports:
       - 80:80
     depends_on:
       - falemuito
   falemuito:
-    image: falemuito
+    image: edemarinho/falemuito-api
     container_name: falemuito-api
     ports:
       - 8083:8083
